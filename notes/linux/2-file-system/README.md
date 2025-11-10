@@ -207,16 +207,6 @@ umount /dev/sdb1
 ---
 
 
-## 4. `vmstat` — Virtual Memory Statistics
-**Meaning:** Virtual Memory Statistics  
-**Description:** Displays information about system processes, memory, paging, block I/O, and CPU.  
-**Example:**
-```bash
-vmstat 2 5  # Refresh every 2 seconds, 5 times
-```
-
----
-
 ## `iotop`
 **Description:** Displays disk I/O usage by processes.  
 **Example:**
