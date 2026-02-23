@@ -1,0 +1,14 @@
+09:24:02.595115 git.c:502               trace: built-in: git push
+09:24:02.595476 run-command.c:673       trace: run_command: GIT_DIR=.git git remote-https origin https://github.com/mahdiyar-az/learning.git
+09:24:02.595492 run-command.c:765       trace: start_command: /usr/lib/git-core/git remote-https origin https://github.com/mahdiyar-az/learning.git
+09:24:02.597693 git.c:808               trace: exec: git-remote-https origin https://github.com/mahdiyar-az/learning.git
+09:24:02.597736 run-command.c:673       trace: run_command: git-remote-https origin https://github.com/mahdiyar-az/learning.git
+09:24:02.597746 run-command.c:765       trace: start_command: /usr/lib/git-core/git-remote-https origin https://github.com/mahdiyar-az/learning.git
+09:24:02.605261 http.c:890              == Info: Couldn't find host github.com in the (nil) file; using defaults
+09:24:02.811051 http.c:890              == Info:   Trying 140.82.121.3:443...
+09:24:02.886988 http.c:890              == Info: Connected to github.com (140.82.121.3) port 443 (#0)
+09:24:02.896118 http.c:890              == Info: found 147 certificates in /etc/ssl/certs/ca-certificates.crt
+09:24:02.920197 http.c:890              == Info: found 441 certificates in /etc/ssl/certs
+09:24:02.920248 http.c:890              == Info: GnuTLS ciphers: NORMAL:-ARCFOUR-128:-CTYPE-ALL:+CTYPE-X509:-VERS-SSL3.0
+09:24:02.920268 http.c:890              == Info: ALPN, offering h2
+09:24:02.920271 http.c:890              == Info: ALPN, offering http/1.1
